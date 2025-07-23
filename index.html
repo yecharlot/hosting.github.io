@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web en GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #2c3e50;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Hola, soy [Tu Nombre]! 👋</h1>
+        <p>Bienvenido/a a mi sitio web en GitHub Pages</p>
+    </header>
+
+    <div class="container">
+        <h2>Sobre mí</h2>
+        <p>Soy un/a apasionado/a por [tus intereses, ej: desarrollo web, diseño, ciencia de datos].</p>
+        
+        <h2>Mis Proyectos</h2>
+        <ul>
+            <li><a href="#">Proyecto 1</a> - Descripción breve.</li>
+            <li><a href="#">Proyecto 2</a> - Descripción breve.</li>
+        </ul>
+
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en:</p>
+        <ul>
+            <li>📧 Email: <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
+            <li>💼 LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></li>
+            <li>🐙 GitHub: <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© <span id="year"></span> [Tu Nombre]. Hosteado en GitHub Pages.</p>
+    </footer>
+
+    <script>
+        // Año automático en el footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
